@@ -36,12 +36,15 @@ public class Homework1_1 {
         int d3 = d%10; // 3-ая цифра
         System.out.println(d1+d2+d3);
 
-        System.out.println("Задание 4");
-        int d = 789;
-        int d1 = d/100; // 1-ая цифра
-        int d2 = (d/10)%10; // 2-ая цифра
-        int d3 = d%10; // 3-ая цифра
-        System.out.println(d1+d2+d3);
+        System.out.println("Задание 4 перепроверить устала");
+        double h = 77.1;
+        int h_rounder = (int) (h + 0.5);
+        System.out.println(h_rounder);
+
+        System.out.println("Задание 5 доделать");
+        int q = 789;
+        int w = 7;
+        System.out.println("Результат деления 789/7";;'q%w');
 
 
 
