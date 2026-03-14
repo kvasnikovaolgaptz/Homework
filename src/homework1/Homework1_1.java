@@ -3,19 +3,6 @@ package homework1;
 public class Homework1_1 {
     public static void main(String[] args) {
         System.out.println("Квасникова Ольга Николаевна");
-        boolean January = false;
-        boolean MARCH = true;
-
-        char letter = 77;
-        System.out.println(letter);
-
-        int age = 16; // чаще всего будем пользоваться
-        double p = 3.1415926;// чаще всего будем пользоваться
-        age = 17;
-        System.out.println(age);
-
-        int m = 42; // почему не работат?
-        m++;
 
         System.out.println("Задание 1");
         int b = 10;
@@ -41,17 +28,18 @@ public class Homework1_1 {
         int h_rounder = (int) (h + 0.5);
         System.out.println(h_rounder);
 
-        System.out.println("Задание 5 доделать");
+        System.out.println("Задание 5");
         int q = 789;
         int w = 7;
-        System.out.println("Результат деления 789/7";;'q%w');
+        System.out.println("Результат деления 789/7="+q/w+" остаток "+q%w);
 
+        System.out.println("Задание *");
+        int f = 1;
+        int j = 2;
+        int k = f;
+        j = f;
+        f = k;
 
-
-
-
-
-
-
+        System.out.println(k);
     }
 }
