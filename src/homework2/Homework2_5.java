@@ -13,16 +13,16 @@ public class Homework2_5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите целое положительное число");
         double a = scanner.nextDouble();
-        int sum = 0;
+        double sum = 0;
         if (a <= 0) {
             System.out.println("Введенное число не корректное");
-        } else if (a%2>0) {
+        } else if (a % 1 > 0) {
             System.out.println("Введенное число не корректное");
         } else {
-            for (int i = 1; i <= n; i++) {
-                sum += i;
+            for (int i = 1; i <= a; i++) {
+                sum = i + sum;
             };
         }
-
+        System.out.println(sum);
     }
 }

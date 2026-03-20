@@ -8,7 +8,6 @@ public class Homework2_4 {
         while (a <= 98) {
             System.out.println(a);
             a = a + 7;
-
         }
     }
 }
