@@ -1,8 +1,8 @@
-package homework4part2;
+package homework4part1;
 
 import java.util.Scanner;
 
-public class AtmMachine {
+public class AtmMachine  {
     /*Создать класс, описывающий банкомат. Набор купюр, находящихся в
 банкомате, должен задаваться тремя свойствами: количеством купюр
 номиналом 20, 50 и 100. Сделать метод для добавления денег в банкомат.
@@ -33,9 +33,9 @@ public class AtmMachine {
             add1 -= 20;
         }
         // если остаток не 20,50 100
-            if (add1 > 0) {
-                System.out.println("Неверная сумма, принимаются купюры номиналом 20,50,100");
-            }
+        if (add1 > 0) {
+            System.out.println("Неверная сумма, принимаются купюры номиналом 20,50,100");
+        }
     }
     public boolean minusTheAmountAtm2() {
         int balanse = (100 * quantity100) + (50 * quantity50) + (20 * quantity20);
@@ -96,9 +96,6 @@ public class AtmMachine {
             return true;
         }
     }
-
-
-
     public void balanse () {
         System.out.println("В банкомате имеются купюры ");
         System.out.println("Купюр номиналом 20 "+ quantity20);
@@ -113,7 +110,3 @@ public class AtmMachine {
         this.quantity100 = quantity100;
     }
 }
-
-
-
-
